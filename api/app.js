@@ -8,6 +8,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testAPIRouter = require('./routes/testAPI');
 var app = express();
+const port = 5000;
+app.get('/',req, res)
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
